@@ -27,29 +27,7 @@
 
 ### 除了使用 for let 配合，还有什么其他方法可以打印出 0、1、2、3、4、5？如下：
 
-1.闭包
-
-    let i 
-    for(i = 0; i<6; i++){
-    !function(j){
-    setTimeout(()=>{
-    console.log(j)
-    },0)
-    }(i)
-    }
-    
-2.数组的push
-
-    var arr4=[];
-    var  n=0;
-    for(vari=0;i<6;i++)
-    {
-    n+=1;
-    arr4.push(n-1)
-    }
-    console.log(arr4)
-    
-3.利用 setTimeout 的第三个参数,将i传进去
+利用 setTimeout 的第三个参数,将i传进去
 
     let i
     for(i = 0; i<6; i++){
@@ -58,16 +36,6 @@
     },0,i)
     }
     
- 4.利用 const 关键字
- 
-    let i
-    for(i=0; i<6; i++)
-    {
-    constx=i
-    setTimeout(()=>{
-    console.log(x)    
-    })
-    }
     
 ### call、apply、bind的用法
 
