@@ -41,7 +41,7 @@ js代码示例
   
  * 场景二：你要监听目前不存在的元素的点击事件，咋办？答：监听祖先，等点击的时候看看是不是想要监听的元素即可。
  
-  代码举例： http://js.jirengu.com/tijiduvame/1/edit?html,js,output
+   代码举例： http://js.jirengu.com/tijiduvame/1/edit?html,js,output
   
   优点：省监听数（内存），可以监听动态元素
   
