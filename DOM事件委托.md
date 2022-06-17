@@ -37,11 +37,11 @@ js代码示例
 
 * 场景一：你要给100个按钮添加点击事件，咋办？答：监听这100个按钮的祖先，等冒泡的时候判断target是不是这100个按钮中的一个。
 
-  代码举例： http://js.jirengu.com/geyuzewuwo/1/
+  代码举例： http://js.jirengu.com/mudesoceme/1/edit?html,js,output
   
  * 场景二：你要监听目前不存在的元素的点击事件，咋办？答：监听祖先，等点击的时候看看是不是想要监听的元素即可。
  
-  代码举例： http://js.jirengu.com/wenirogexo/1/
+  代码举例： http://js.jirengu.com/tijiduvame/1/edit?html,js,output
   
   优点：省监听数（内存），可以监听动态元素
   
@@ -49,4 +49,4 @@ js代码示例
   
 封装事件委托：（借助场景二的例子）=>改进后（递归判断）：
 
-代码链接：http://js.jirengu.com/nunuzuvere/1/
+代码链接：http://js.jirengu.com/jabotecuvo/1/edit?html,js,output
